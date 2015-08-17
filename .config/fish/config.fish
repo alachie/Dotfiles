@@ -15,6 +15,4 @@ function hide
 end
 
 # start browser sync with custom arguments
-function bsync
-  browser-sync start --server --files \"*\" --no-ghost-mode
-end
+alias bsync 'browser-sync start --server --files "*" --no-ghost-mode'
