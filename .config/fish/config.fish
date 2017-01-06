@@ -1,6 +1,6 @@
 # sublime alises
-alias subl "sublime "
-alias s "subl ."
+alias s "sublime "
+# alias s "subl ."
 
 
 # hide and show hidden files
