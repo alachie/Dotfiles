@@ -1,3 +1,3 @@
 function fish_greeting
-  # display nothing
+  node-mascot
 end
