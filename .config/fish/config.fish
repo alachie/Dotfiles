@@ -14,9 +14,6 @@ function hide
   killall Finder
 end
 
-# start browser sync with custom arguments
-alias bsync 'browser-sync start --server --files "*" --no-ghost-mode'
-
 # .gitignore generator
 function gi
 	curl -L -s https://www.gitignore.io/api/$argv
