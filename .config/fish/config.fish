@@ -1,7 +1,6 @@
-# sublime alises
+# alises
 alias s "sublime "
-# alias s "subl ."
-
+alias - "pwd"
 
 # hide and show hidden files
 function show
