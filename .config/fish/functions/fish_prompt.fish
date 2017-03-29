@@ -78,6 +78,7 @@ function fish_prompt --description 'Write out the prompt'
 	# PWD
 	set_color normal
 	echo -n '🎷 🐢  '
+	
 	echo -n (prompt_pwd)
 	echo -n (__fish_vcs_prompt)
 
