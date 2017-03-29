@@ -1,8 +1,7 @@
-# Dotfiles :sparkles:
-my very minimal dotfiles
-feel free to use them - have a nice day
+# Dotfiles ✨
+my dotfiles 🛠 💻
 
 ### Configs for 
-- fish shell
-- tmux 
-- vim
+- 🐟  fish shell
+- ⛓  tmux 
+- 📝  vim
