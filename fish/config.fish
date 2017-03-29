@@ -4,11 +4,13 @@ alias - "pwd"
 
 # hide and show hidden files
 function show
-  defaults write com.apple.finder AppleShowAllFiles -bool true
-  killall Finder
+	echo "✅  showing hidden files"
+	defaults write com.apple.finder AppleShowAllFiles -bool true
+	killall Finder
 end
 
 function hide
+	echo "🚫  hiding hidden files"
   defaults write com.apple.finder AppleShowAllFiles -bool false
   killall Finder
 end
