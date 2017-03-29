@@ -7,11 +7,18 @@ fi
 
 link() {
 	echo "🔗  $1"
-	stow $1 -t ~
+	stow $1 -t $2
 }
 
-link "vim"
-link "tmux"
+if [ ! -d "~/.config/fish" ]; then
+	echo "creating 📁  ~/.config/fish"
+	mkdir ~/.config/fish
+fi
+
+link "fish" ~/.config/fish
+link "vim" ~
+link "tmux" ~
+
 
 #echo "linking vim"
 #stow vim -t ~
