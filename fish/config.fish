@@ -1,6 +1,7 @@
 # alises
 alias s "sublime "
 alias - "pwd"
+alias ytdl "youtube-dl "
 
 # hide and show hidden files
 function show
