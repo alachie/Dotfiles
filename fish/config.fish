@@ -3,6 +3,8 @@ alias s "sublime "
 alias - "pwd"
 alias ytdl "youtube-dl "
 
+alias ls "colorls"
+
 # hide and show hidden files
 function show
 	echo "✅  showing hidden files"
