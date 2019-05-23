@@ -25,4 +25,4 @@ Emojis are used in the prompt to display the git status of the current directory
 
 ### Screenshots
 
-![default](https://raw.githubusercontent.com/alachie/Dotfiles/master/screenshots/2.jpg)
+![default](https://raw.githubusercontent.com/alachie/Dotfiles/master/screenshots/2.png)
