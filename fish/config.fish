@@ -1,9 +1,13 @@
 # alises
 alias s "sublime "
+alias c "code "
 alias - "pwd"
 alias ytdl "youtube-dl "
 
 alias ls "colorls"
+
+set PATH ~/.composer/vendor/bin $PATH
+
 
 # hide and show hidden files
 function show
