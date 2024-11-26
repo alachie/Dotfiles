@@ -5,6 +5,7 @@ my dotfiles 🛠 💻
 ### Configs for
 
 -   🐟 fish shell
+-   🦊 firefox
 -   🖥 iterm2
 -   ⛓ tmux
 -   📝 vim
