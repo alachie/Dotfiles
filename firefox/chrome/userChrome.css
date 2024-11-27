@@ -107,8 +107,12 @@ html:not([privatebrowsingmode="temporary"]) #sidebar {
   min-width: var(--uc-sidebar-width) !important;
 }
 
+html:not([privatebrowsingmode="temporary"]) #sidebar-box:hover {
+  z-index: 9999 !important;
+}
 html:not([privatebrowsingmode="temporary"]) #sidebar-box:hover > #sidebar {
   min-width: var(--uc-sidebar-hover-width) !important;
+  z-index: 9999 !important;
 }
 
 html:not([privatebrowsingmode="temporary"]) .sidebar-panel {
